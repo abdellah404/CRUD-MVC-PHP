@@ -2,6 +2,7 @@
  require_once("Controler/stagiaireCtrl.php");
  
   if(isset($_GET['action'])){
+    
 
     $action =$_GET['action'] ;
     switch($action){
